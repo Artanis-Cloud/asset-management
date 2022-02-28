@@ -359,12 +359,12 @@
                             <i class="fa fa-sign-out fa-fw"></i> {{ trans('general.logout') }}
                                     {{ csrf_field() }}
                         </a>
-                        
+
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             {{ csrf_field() }}
                         </form>
 
-                    
+
                      </li>
                  </ul>
                </li>
@@ -827,9 +827,9 @@
                   {!!  Parsedown::instance()->text(e($snipeSettings->footer_text))  !!}
               </div>
           @endif
-          
 
-          <a target="_blank" href="https://snipeitapp.com" rel="noopener">Snipe-IT</a> is open source software, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px" aria-hidden="true"></i><span class="sr-only">love</span> by <a href="https://twitter.com/snipeitapp" rel="noopener">@snipeitapp</a>.
+
+          <a target="_blank" href="https://www.asset-management.ezran.my/login" rel="noopener">Asset Management System</a> is open source software, made with <span class="sr-only">love</span> by <a href="https://www.artaniscloud.com/" rel="noopener">Artanis Cloud Sdn. Bhd</a>.
       </footer>
 
 
@@ -890,7 +890,7 @@
 
 
         $(function () {
-  
+
             $('[data-toggle="tooltip"]').tooltip();
             $('[data-toggle="popover"]').popover();
             $('.select2 span').addClass('needsclick');
