@@ -39,15 +39,15 @@ $factory->state(App\Models\User::class, 'first-admin', function ($faker) {
     ];
 });
 
-$factory->state(App\Models\User::class, 'snipe-admin', function ($faker) {
-    return [
-        'first_name' => 'Snipe E.',
-        'last_name' => 'Head',
-        'username' => 'snipe',
-        'email' => 'snipe@snipe.net',
-        'permissions' => '{"superuser":"1"}',
-    ];
-});
+// $factory->state(App\Models\User::class, 'snipe-admin', function ($faker) {
+//     return [
+//         'first_name' => 'Snipe E.',
+//         'last_name' => 'Head',
+//         'username' => 'snipe',
+//         'email' => 'snipe@snipe.net',
+//         'permissions' => '{"superuser":"1"}',
+//     ];
+// });
 
 
 // USER GLOBAL PERMISSION STATES
